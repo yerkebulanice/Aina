@@ -1,3 +1,4 @@
+import 'package:aina/src/constants/app_colors.dart';
 import 'package:aina/src/constants/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,7 @@ class CustomButton extends StatelessWidget {
     Key? key,
     this.onPressed,
     required this.text,
-    this.color = const Color(0xff243b8b),
+    this.color = AppColors.primary,
     this.textColor = Colors.white,
   }) : super(key: key);
   @override
